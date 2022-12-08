@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wall-e</title>
+</head>
+
+<body>
+<script src="psw.js"></script>
+<script>
+	function password() {		
+		var testV = 1;
+		var psw = prompt("请输入密码","");
+		while (testV < 3) {
+			if (!psw){
+				history.go(-1);
+			}
+			if (psw == xx) {
+				location.href="zt.html";
+				break;
+			}
+			testV+=1;
+			psw=prompt("请输入密码","");
+		}
+		if (psw!=xx && testV ==3){
+			alert("请刷新重新输入密码");
+		}
+			return " ";
+	}
+	
+	password();
+
+</script>
+</body>
+</html>
